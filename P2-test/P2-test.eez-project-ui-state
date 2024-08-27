@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[P2-test.eez-project]:/userPages/0",
+    "selectedUserPageObject": "[P2-test.eez-project]:/userPages/1",
     "subnavigationSelectedItems": {
       "variables-tab/sub-navigation/selected-item": "Widgets"
     }
@@ -185,6 +185,47 @@
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
+                {
+                  "type": "tab",
+                  "id": "#da1c1d66-aeb3-4c81-8d4a-3bfa87b0e6cd",
+                  "name": "Settings",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[P2-test.eez-project]:/settings",
+                    "subObjectPath": "[P2-test.eez-project]:/settings",
+                    "permanent": false
+                  },
+                  "icon": "material:settings"
+                },
+                {
+                  "type": "tab",
+                  "id": "#a0b00683-5aa2-409a-9b43-ae304ad35d23",
+                  "name": "page3",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[P2-test.eez-project]:/userPages/2",
+                    "permanent": true
+                  },
+                  "icon": {
+                    "type": "svg",
+                    "key": null,
+                    "ref": null,
+                    "props": {
+                      "viewBox": "0 96 960 960",
+                      "fill": "currentColor",
+                      "children": {
+                        "type": "path",
+                        "key": null,
+                        "ref": null,
+                        "props": {
+                          "d": "M343 636h225v-60H343v60Zm0-90h395v-60H343v60Zm0-90h395v-60H343v60Zm-83 400q-24 0-42-18t-18-42V236q0-24 18-42t42-18h560q24 0 42 18t18 42v560q0 24-18 42t-42 18H260Zm0-60h560V236H260v560ZM140 976q-24 0-42-18t-18-42V296h60v620h620v60H140Zm120-740v560-560Z"
+                        },
+                        "_owner": null
+                      }
+                    },
+                    "_owner": null
+                  }
+                },
                 {
                   "type": "tab",
                   "id": "#700c3b6e-005a-4b26-99b9-b031e1bbf894",
@@ -1006,8 +1047,8 @@
       "selection": {},
       "transform": {
         "translate": {
-          "x": -240,
-          "y": -160
+          "x": -226.66668701171875,
+          "y": -166.66665649414062
         },
         "scale": 1
       },
